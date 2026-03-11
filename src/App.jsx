@@ -1,11 +1,12 @@
 import './App.css'
+import Sidebar from './components/Sidebar/Sidebar'
+import HandoffPage from './pages/HandoffPage/HandoffPage'
 
 function App() {
   return (
-    <div className="container">
-      <h1>Hello, World! 👋</h1>
-      <p>Bem-vindo ao <strong>POC Compliance</strong></p>
-      <p className="subtitle">Projeto React + Vite</p>
+    <div className="app-layout">
+      <Sidebar />
+      <HandoffPage />
     </div>
   )
 }
