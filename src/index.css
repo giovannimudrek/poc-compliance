@@ -6,11 +6,8 @@
 
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #f0f2f5;
-  color: #213547;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #F9FAFB;
+  color: #111827;
   min-height: 100vh;
 }
 
